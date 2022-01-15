@@ -95,7 +95,7 @@ nav a {
 
 .popular-products {
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -159,6 +159,21 @@ nav a {
 /* login container */
 
 
+#contact{
+    margin-bottom: 100px;
+}
+
+.section-title h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.login-area{
+    display: flex;
+    justify-content: space-around;
+}
+
 .login-container {
     display: flex;
     justify-content: center;
@@ -190,28 +205,13 @@ button {
 }
 
 
-
-
-
-
-/* contact part css */
-
-.contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-.contact-left img{
-    width: 100%;
-}
-
-.contact-right form{
+.contact form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .text-field{
-    width: 100%;
+    width: 70%;
     margin: 10px 0;
     padding: 10px;
     font-size: 18px;
@@ -220,13 +220,36 @@ button {
     border: 1px solid #FF008E;
 }
 
-footer{
-    margin-top: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
 }
+
+/* --------------style of footer-------------------
+------------------------------------------------- */
+#footer{
+    background-color: #0A0826;
+    text-align: center;
+}
+.white-color {
+    color: white;
+}
+footer{
+    padding: 5px;
+}
+.social-i {
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 25px;
+    color: white;
+    margin: 5px 5px 50px;
+    padding: 10px;
+}
+
 
 
 /* navbar
