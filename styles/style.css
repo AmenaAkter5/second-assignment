@@ -89,6 +89,10 @@ nav a {
     font-weight: 700;
 }
 
+.influencer p {
+    margin-bottom: 50px;
+}
+
 .influencer a {
     text-decoration: none;
     color: white;
