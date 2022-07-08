@@ -340,6 +340,10 @@ footer {
 
     }
 
+    .section-title h1 {
+        font-size: 25px;
+    }
+
     .text-field {
         width: 300px;
         margin: 10px 0;
