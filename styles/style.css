@@ -220,6 +220,8 @@ button {
     padding: 10px 24px;
     background-color: #E02C6D;
     outline: none;
+    cursor: pointer;
+    border: none;
 }
 
 /* --------------Footer-------------------
