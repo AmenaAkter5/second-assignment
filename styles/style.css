@@ -8,8 +8,6 @@
      Common Styles or Utilities 
 ------------------------------------*/
 
-
-
 body {
     margin: 0;
     padding: 0;
@@ -148,14 +146,13 @@ body {
 }
 
 
-.section-title h1 {
-    font-size: 36px;
+.contact-title {
     text-align: center;
-    background-color: white;
-    margin-left: 120px;
-    margin-right: 120px;
-    border-radius: 15px;
-    margin-bottom: 60px;
+    margin: 16px;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 13px;
 }
 
 
@@ -338,10 +335,6 @@ footer {
     .login-form input {
         width: 300px;
 
-    }
-
-    .section-title h1 {
-        font-size: 20px;
     }
 
     .text-field {
