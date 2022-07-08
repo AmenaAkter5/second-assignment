@@ -189,6 +189,7 @@ button {
     font-weight: 600;
     border: 0;
     padding: 5px;
+    outline: none;
 }
 
 /* contact container */
@@ -210,7 +211,7 @@ button {
     border: 1px solid #FF008E;
 }
 
-.contact button {
+.submit-btn {
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -218,6 +219,7 @@ button {
     border-radius: 40px;
     padding: 10px 24px;
     background-color: #E02C6D;
+    outline: none;
 }
 
 /* --------------Footer-------------------
