@@ -145,7 +145,6 @@ body {
     margin-bottom: 100px;
 }
 
-
 .contact-title {
     text-align: center;
     margin: 16px;
@@ -154,10 +153,6 @@ body {
     border-radius: 8px;
     padding: 13px;
 }
-
-
-/* login container */
-
 
 .login-area {
     display: flex;
